@@ -1,0 +1,242 @@
+@font-face {
+	font-family: 'Orator Std Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Orator Std Medium'), url('fonts/OratorStd.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Thin'), url('fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Medium'), url('fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TheNextFont';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TheNextFont'), url('fonts/TheNextFont.ttf') format('truetype');
+}
+
+
+
+body {
+	text-align: center;
+
+}
+
+
+h1 {
+    font-family:'Orator Std Medium';
+	font-weight:normal;
+	font-size:39px
+}
+
+h2 {
+    font-family:'Orator Std Medium';
+	font-weight:normal;
+	font-size:15px;
+}
+
+h3 {
+    font-family:'Orator Std Medium';
+	font-weight:normal;
+	font-size:17px;
+	text-align: center;
+
+}
+
+h4 {
+    font-family:'Orator Std Medium';
+	font-weight:normal;
+	font-size:21px;
+	color: white;
+	background-color: black;
+
+}
+
+h5 {
+    font-family:'Orator Std Medium';
+	font-weight:normal;
+	font-size:60px;
+}
+
+h6 {
+    font-family:'Orator Std Medium';
+	font-weight:normal;
+	font-size:21px;
+	color: white;
+	background-color: black;
+
+}
+
+h7 {
+    font-family:'TheNextFont';
+	font-weight:normal;
+	font-size:60px;
+}
+
+textelement1 {
+    font-family:'Roboto Thin';
+	font-weight:normal;
+	font-size:20px;
+	
+	color: black;
+	text-align:center;
+}
+
+textelement2 {
+    font-family:'Roboto Medium';
+	font-weight:normal;
+	font-size:15px;
+	text-align:center;
+}
+
+
+
+p{
+	font-family:'Orator Std Medium';
+	font-weight:normal;
+	font-size:15px;
+    text-align: center;
+}
+
+left {
+    float: left;
+    max-width: 100px;
+    margin: 0;
+    padding: 1em;
+}
+
+middle {
+    float: center;
+    max-width: 100px;
+    margin: 0;
+    padding: 1em;
+}
+right {
+    float: right;
+    max-width: 100px;
+    margin: 0;
+    padding: 1em;
+}
+
+
+
+
+
+out {
+      display: block;
+      padding: 40px;
+      text-align: center;
+
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 7px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-family:'Orator Std Medium';
+	font-weight:normal;
+    font-size: 15px;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+.button2 {width: 200px;}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '/';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 1;
+}
+
+div.container {
+    width: 100%;
+	lenght: 100%;
+	text-align: center;
+}
+
+
+div.ex1 {
+    width: 510px;
+    margin: auto;
+	text-align: center;
+
+}
+
+
+
+header{
+    padding: 1em;
+    color: black;
+	text-align: center;
+}
+
+buttonelement{
+    display: block;
+    padding: 60px;
+	text-align: center;
+}
+
+
+footer {
+    padding: 1em;
+    color: black;
+    text-align: center;
+}
+
+text{
+	text-align: center;
+}
+
+
+
+article {
+    margin-left: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 60px;
+    overflow: hidden;
+}
+
+img.vor1 {
+    position: absolute;
+    top: 290px;
+    z-index: 1;
+}
+img.vor2 {
+    position: absolute;
+    top: 490px;
+    z-index: 1;
+}
