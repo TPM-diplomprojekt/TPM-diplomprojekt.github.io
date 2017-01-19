@@ -2,21 +2,21 @@
 	font-family: 'Orator Std Medium';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Orator Std Medium'), url('fonts/OratorStd.woff') format('woff');
+	src: local('Orator Std Medium'), url('OratorStd.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Roboto Thin';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Thin'), url('fonts/Roboto-Thin.ttf') format('truetype');
+  src: local('Roboto Thin'), url('Roboto-Thin.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto Medium';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Medium'), url('fonts/Roboto-Medium.ttf') format('truetype');
+  src: local('Roboto Medium'), url('Roboto-Medium.ttf') format('truetype');
 }
 
 
@@ -24,7 +24,7 @@
   font-family: 'TheNextFont';
   font-style: normal;
   font-weight: 400;
-  src: local('TheNextFont'), url('fonts/TheNextFont.ttf') format('truetype');
+  src: local('TheNextFont'), url('TheNextFont.ttf') format('truetype');
 }
 
 
